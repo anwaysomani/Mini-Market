@@ -1,0 +1,53 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+.bill-title {
+	background-color: yellow;
+	margin: 0px;
+	padding: 10px;
+	font: 40px Bold;
+}
+
+.form-control {
+	width: 100px;
+}
+
+/*Table Columns*/
+.product {
+	width: 400px;
+}
+
+.company {
+	width: 300px;
+}
+
+.price {
+	width: 175px;
+}
+
+.discount {
+	width: 75px;
+	text-align: center;
+}
+
+.id {
+	width: 50px;
+}
+
+.quantity {
+	width: 175px;
+}
+
+/*Adding elements to cart*/
+.add {
+	background-color: green;
+	width: 40%;
+	height: 100%;
+	padding: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font: 20px Bold;
+	color: white;
+}

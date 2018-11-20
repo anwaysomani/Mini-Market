@@ -1,7 +1,7 @@
 <%-- 
     Document   : insertProduct
     Created on : 19 Nov, 2018, 3:27:20 AM
-    Author     : LENOVO
+    Author     : Anway
 --%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>
