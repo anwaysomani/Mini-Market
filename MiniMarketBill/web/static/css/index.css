@@ -1,0 +1,20 @@
+html {
+    padding: 10px;
+    margin: 0px;
+}
+
+body {
+    padding: 10px;
+    margin: 5px;
+    background-color: turquoise;
+}
+
+.redirectBlock {
+    border: 5px Solid Black;
+    padding: 5px;
+    background-color: green;
+    font: 30px Bold;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    
+}
