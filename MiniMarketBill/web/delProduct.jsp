@@ -40,8 +40,7 @@
             </thead>
             
             <tbody>
-                A---
-        <%
+                <%
 			try{
                                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/billing_system", "Anway", "anway123");
                                 statement = con.createStatement();
@@ -71,7 +70,6 @@
 		%>
                 </tbody>
                 <br><br>
-                B----
                 <tbody>
         <%
 			try{
