@@ -22,10 +22,19 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <!--Local CSS File-->
-        <link rel="stylesheet" href="Static/css/insProduct.css"/>
+        <link rel="stylesheet" href="Static/css/delProduct.css"/>
     </head>
     
     <body>
+
+        <div class="market-title">
+            Market Title
+            <a href="http://localhost:8080/MiniMarketBill/">
+                <div class="returnPrev">
+                    <--Return
+                </div>
+            </a>
+        </div>
         
         <!--A-->
         <div class="alphabet">
@@ -63,7 +72,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -115,7 +124,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -167,7 +176,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -219,7 +228,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -271,7 +280,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -323,7 +332,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -375,7 +384,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -427,7 +436,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -479,7 +488,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -531,7 +540,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -583,7 +592,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -635,7 +644,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -687,7 +696,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -739,7 +748,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -791,7 +800,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -843,7 +852,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -895,7 +904,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -947,7 +956,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -999,7 +1008,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1051,7 +1060,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1103,7 +1112,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1155,7 +1164,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1208,7 +1217,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1260,7 +1269,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1312,7 +1321,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;
@@ -1364,7 +1373,7 @@
                                 <td><%=resultSet.getString("manufacture_date") %></td>
                                 <td><%=resultSet.getString("expiry_date") %></td>
                                 <td><%=resultSet.getString("p_discount") %></td>
-                                <td><a href="<td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id") %>">Delete</a></td>
+                                <td><a href="deleteProduct.jsp?p_id=<%=resultSet.getString("p_id")%>">Delete</a></td>
                               </tr>                            
                 <%
                         i++;

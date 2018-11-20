@@ -15,17 +15,20 @@
         <%--<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>--%>
         <%@page import="java.sql.*,java.util.*"%>
         <%
-        String id=request.getParameter("p_id");
+        String p_id=request.getParameter("p_id");
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/billing_system", "Anway", "anway123");
             Statement st = conn.createStatement();
-            int i = st.executeUpdate("DELETE FROM product WHERE p_id=" + id);
+            int sql = st.executeUpdate("DELETE FROM product WHERE p_id=" + p_id);
+            
+//            PreparedStatement ps = conn.prepareStatement(sql);
+//            ps.executeUpdate();
             
             String redirectURL = "http://localhost:8080/MiniMarketBill/delProduct.jsp";
             response.sendRedirect(redirectURL);
-                out.println("Inserted data successfully");
+                out.println("Deleted data successfully");
         }
         catch(Exception e)
         {
@@ -33,5 +36,6 @@
         e.printStackTrace();
         }
         %>
+        
     </body>
 </html>
