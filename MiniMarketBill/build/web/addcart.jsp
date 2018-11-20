@@ -4,8 +4,15 @@
     Author     : Anway
 --%>
 <%@page import="java.sql.Statement"%>
+<%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.DriverManager"%>
+
+<%      
+        Connection connection = null;
+	Statement statement = null;
+	ResultSet resultSet = null;
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,6 +21,8 @@
         <title>Shopping Cart</title>
     </head>
     <body>
+        
+        
         <% 
             String p_id = request.getParameter("p_id");
             String p_name = request.getParameter("p_name");

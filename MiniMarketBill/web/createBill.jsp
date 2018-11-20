@@ -62,7 +62,7 @@
                                 <td><%=resultSet.getString("p_price") %>/-</td>
                                 <td><%=resultSet.getString("p_discount") %></td>
                                 <td><input type='number' class="form-control" name='p_quantity' placeholder="Quantity..."></td>
-                                <td><div class="add">Add+</div></td>
+                                <td><a href="addcart.jsp"><div class="add">Add+</div></a></td>
                               </tr>                            
                 <%
                         i++;
