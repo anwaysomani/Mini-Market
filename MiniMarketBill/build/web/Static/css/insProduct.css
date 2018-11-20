@@ -1,0 +1,15 @@
+.alphabet {
+    background-color: lightGray;
+    padding: 5px;
+    text-align: center;
+    font: 20px Bold;
+    background: #ccc;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
