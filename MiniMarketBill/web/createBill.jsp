@@ -32,6 +32,12 @@
             Billing Section
         </div>
         
+        <a href="index.html">
+            <div class="return">
+                <img src="Static/img/return.png" />Return 
+            </div>
+        </a>
+        
         <table class="table table-hover">
             <thead class="thead-light">
               <tr>
@@ -76,6 +82,7 @@
             <br>
         </table>
         
+        <br>
         
     </body>
 </html>

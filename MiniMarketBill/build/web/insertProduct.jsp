@@ -31,9 +31,18 @@
                 st.executeUpdate("INSERT INTO product(p_name, p_company, p_price, p_category, manufacture_date, expiry_date, p_discount) VALUES('"+p_name+"', '"+p_company+"', '"+p_price+"', '"+p_category+"', '"+manufacture_date+"', '"+expiry_date+"', '"+p_discount+"')");
                 
                 
-                String redirectURL = "http://localhost:8080/MiniMarketBill/marketbill.jsp";
+                String redirectURL = "http://localhost:8080/MiniMarketBill/insProduct.jsp";                    
                 response.sendRedirect(redirectURL);
+        %>
+            <style>
+                html {
+                    background-color: green;
+                }
+            </style>
+                
+        <%
                 out.println("Inserted data successfully");
+                
             }
             catch(Exception e) {   
                 out.println(e);

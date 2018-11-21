@@ -17,23 +17,27 @@
         <title>JSP Page</title>
         
         <link rel="stylesheet" href="Static/css/viewpartner.css"/>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+
     </head>
     <body>
         <div class="market-title">
             Market Title
-            <a href="http://localhost:8080/MiniMarketBill/">
-                <div class="returnPrev">
-                    <--Return
-                </div>
-            </a>
         </div>
+        <a href="index.html">
+            <div class="return">
+                <img src="Static/img/return.png" />Return 
+            </div>
+        </a>
         
         <br><br><br>
         
         <div class="partner-title">
             Partner Organizations    
         </div>
-        
+
         <table>
             <thead>
                 <th>Partners</th>
@@ -43,7 +47,7 @@
                         try{
                                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/billing_system", "Anway", "anway123");
                                 statement = con.createStatement();
-                                String sql = "SELECT * FROM product";
+                                String sql = "SELECT DISTINCT(p_company) FROM product";
                                 resultSet = statement.executeQuery(sql);
                                 int i=0;
                                 while(resultSet.next()){

@@ -28,3 +28,32 @@ table {
 	margin-right: 30%;
 	margin-top: 3%;
 }
+
+.return {
+    font: 20px Bold;
+    border: 2px Solid Black;
+    background-color: white;
+}
+
+.return:hover {
+    background-color: turquoise;
+}
+
+img {
+    width: 3%;
+    height: 3%;
+}
+
+.partner-title {
+	background-color: grey;
+	font: 30px Bold;
+}
+
+td {
+	font: 25px Bold;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+th {
+	border: 3px dotted white;
+}

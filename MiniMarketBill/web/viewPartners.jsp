@@ -43,7 +43,7 @@
                         try{
                                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/billing_system", "Anway", "anway123");
                                 statement = con.createStatement();
-                                String sql = "SELECT * FROM product";
+                                String sql = "SELECT DISTINCT(p_company) FROM product";
                                 resultSet = statement.executeQuery(sql);
                                 int i=0;
                                 while(resultSet.next()){

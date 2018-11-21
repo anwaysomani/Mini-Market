@@ -1,4 +1,4 @@
-.alphabet {
+/*.alphabet {
     background-color: lightGray;
     padding: 5px;
     text-align: center;
@@ -12,4 +12,18 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+}*/
+
+.return {
+    font: 20px Bold;
+    border: 2px Solid Black;
+}
+
+.return:hover {
+    background-color: turquoise;
+}
+
+img {
+    width: 3%;
+    height: 3%;
 }

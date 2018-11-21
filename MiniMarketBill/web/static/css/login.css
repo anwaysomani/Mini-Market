@@ -1,0 +1,21 @@
+html {
+    margin: 0%;
+    
+    position: fixed;
+    background-color: turquoise;
+    color: white;
+    text-align: center;
+}
+
+form {
+    background-color: blue;
+    position:fixed;
+/*    width:100px;
+    height:100px;*/
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    /*margin-top:-50px;*/
+    padding: 20px;
+    
+}
