@@ -1,12 +1,3 @@
-html {
-	margin: 0px;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	color: white;
-	text-align: center;
-}
-
 /*Market Title*/
 .market-title {
     background-color: yellow;
@@ -22,17 +13,31 @@ html {
     font: 20px Bold;
 }
 
-table {
-	border: 5px double yellow;
-	margin-left: 30%;
-	margin-right: 30%;
-	margin-top: 3%;
+.alphabet {
+    background-color: lightGray;
+    padding: 5px;
+    text-align: center;
+    font: 20px Bold;
+    background: #ccc;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 
 .return {
     font: 20px Bold;
     border: 2px Solid Black;
-    background-color: white;
 }
 
 .return:hover {
@@ -42,18 +47,4 @@ table {
 img {
     width: 3%;
     height: 3%;
-}
-
-.partner-title {
-	background-color: grey;
-	font: 30px Bold;
-}
-
-td {
-	font: 25px Bold;
-	font-family: 'PT Sans Narrow', sans-serif;
-}
-
-th {
-	border: 3px dotted white;
 }

@@ -1,20 +1,45 @@
-html {
-    padding: 10px;
++html {
+    padding: 0px;
     margin: 0px;
 }
 
 body {
-    padding: 10px;
-    margin: 5px;
-    background-color: turquoise;
+    padding: 0px;
+    margin: 0px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
-.redirectBlock {
-    border: 5px Solid Black;
-    padding: 5px;
-    background-color: green;
-    font: 30px Bold;
-    font-family: 'Acme', sans-serif;
+/*Market Title*/
+.market-title {
+    background-color: yellow;
+    padding: 20px;
+    margin: 0px;
     text-align: center;
-    
+    font: 40px Bold;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    align-content: center;
+}
+
+/* Redirect options on webpage */
+.object {
+    padding: 20px;
+    margin: 25px;
+    margin-left: 40px;
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    font: 30px Bold;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: white;
 }

@@ -1,4 +1,4 @@
-html {
++html {
     margin: 0%;
     
     position: fixed;
@@ -18,4 +18,18 @@ form {
     /*margin-top:-50px;*/
     padding: 20px;
     
+}
+
+.return {
+    font: 20px Bold;
+    border: 2px Solid Black;
+}
+
+.return:hover {
+    background-color: turquoise;
+}
+
+img {
+    width: 3%;
+    height: 3%;
 }

@@ -27,6 +27,12 @@
     
     <body>
         
+        <a href="index.html">
+            <div class="return">
+                <img src="Static/img/return.png" />Return 
+            </div>
+        </a>
+        
         <!--A-->
         <div class="alphabet">
             A

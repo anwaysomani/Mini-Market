@@ -1,15 +1,23 @@
-.alphabet {
+/*.alphabet {
     background-color: lightGray;
     padding: 5px;
     text-align: center;
-    font: 20px Bold;
-    background: #ccc;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 10px;
-    font-size: 30px;
-    padding-left: 10px;
+@ -12,4 +12,18 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+}*/
+
+.return {
+    font: 20px Bold;
+    border: 2px Solid Black;
+}
+
+.return:hover {
+    background-color: turquoise;
+}
+
+img {
+    width: 3%;
+    height: 3%;
 }

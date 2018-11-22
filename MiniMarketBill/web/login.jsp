@@ -1,5 +1,3 @@
-
-
 <head>
     <link rel="stylesheet" href="Static/css/login.css"/>
 </head>
@@ -13,8 +11,8 @@
     </form>
 
     <a href="index.html">
-        <div class="return">
-            <-- Return
-        </div>
-    </a>
+            <div class="return">
+                <img src="Static/img/return.png" />Return 
+            </div>
+        </a>
 </body>

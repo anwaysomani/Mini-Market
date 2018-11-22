@@ -1,5 +1,3 @@
-
-
 <head>
     <link rel="stylesheet" href="Static/css/login.css"/>
 </head>
