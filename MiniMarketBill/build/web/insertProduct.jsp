@@ -7,13 +7,6 @@
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Inserting Product</title>
-    </head>
-    <body>
         <% 
             String p_name = request.getParameter("p_name");
             String p_company = request.getParameter("p_company");

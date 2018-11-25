@@ -22,14 +22,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <!--Local CSS File-->
-        <link rel="stylesheet" href="Static/css/delProduct.css"/>
+        <link rel="stylesheet" href="static/css/delProduct.css"/>
     </head>
     
     <body>
 
         <a href="index.html">
             <div class="return">
-                <img src="Static/img/return.png" />Return 
+                <img src="static/img/return.png" />Return 
             </div>
         </a>
         

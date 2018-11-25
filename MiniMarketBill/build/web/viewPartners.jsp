@@ -16,7 +16,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         
-        <link rel="stylesheet" href="Static/css/viewpartner.css"/>
+        <link rel="stylesheet" href="static/css/viewpartner.css"/>
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
@@ -28,7 +28,7 @@
         </div>
         <a href="index.html">
             <div class="return">
-                <img src="Static/img/return.png" />Return 
+                <img src="static/img/return.png" />Return 
             </div>
         </a>
         

@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="Static/css/login.css"/>
+    <link rel="stylesheet" href="static/css/login.css"/>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 
     <a href="index.html">
             <div class="return">
-                <img src="Static/img/return.png" />Return 
+                <img src="static/img/return.png" />Return 
             </div>
     </a>
     

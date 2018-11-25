@@ -24,7 +24,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
-        <link rel="stylesheet" href="Static/css/createBill.css"/>
+        <link rel="stylesheet" href="static/css/createBill.css"/>
         
     </head>
     <body>
@@ -34,7 +34,7 @@
         
         <a href="index.html">
             <div class="return">
-                <img src="Static/img/return.png" />Return 
+                <img src="static/img/return.png" />Return 
             </div>
         </a>
         
@@ -68,7 +68,7 @@
                                 <td><%=resultSet.getString("p_price") %>/-</td>
                                 <td><%=resultSet.getString("p_discount") %></td>
                                 <td><input type='number' class="form-control" name='p_quantity' placeholder="Quantity..."></td>
-                                <td><a href="addcart.jsp"><div class="add">Add+</div></a></td>
+                                <td><a href="addcart.jsp"><div class="add" value="<%=resultSet.getString("p_id") %>" name="<%=resultSet.getString("p_id") %>">Add+</div></a></td>
                               </tr>                            
                 <%
                         i++;
